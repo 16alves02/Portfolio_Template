@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Your Name | Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tab icon -->
+    <link rel="icon" href="assets/yourlogo.png" type="image/png">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <!-- Logo with link to home page -->
+        <a href="/">
+          <img src="assets/yourlogo.png" alt="Your Logo" />
+        </a>
+        <!-- Navigation links -->
+        <ul class="navbar__links">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+        <!-- Mobile menu -->
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="sanduiche" />
+          <ul class="mobile__links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Hello! I am Name, "Front-End Developer"</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+          nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a href="#about" class="btn btn-primary">Learn More!</a>
+      </div>
+      <div class="header__right">
+        <div class="header__image">
+          <img src="assets/your-photo.jpg" alt="Your Photo" class="photo" />
+          <img src="assets/abstract.svg" alt="background" class="background" />
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin 
+          eget tortor a mi efficitur bibendum. Nulla facilisi. Vivamus in 
+          ligula bibendum, varius lacus eu, dictum quam. Mauris ac cursus 
+          libero, in hendrerit lacus.
+        </p>
+        <ul>
+          <!-- Social media -->
+          <li>
+            <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/github.svg" alt="GitHub" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">Education and Experience</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus 
+          efficitur nisi a leo tincidunt, eu finibus elit malesuada. Duis 
+          posuere ex a libero viverra, in fermentum sapien ullamcorper.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">Technical Skills</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer 
+          nec odio. Praesent libero. Sed cursus ante dapibus diam.
+        </p>
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/notebook.png" alt="Front-End Development" />
+            </div>
+            <h3>Front-End Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/colors.png" alt="Web Design" />
+            </div>
+            <h3>Web Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/files.png" alt="Database Management" />
+            </div>
+            <h3>Database Management</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Recent Projects</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+          enim ad minim veniam.
+        </p>
+      </div>
+      <ul>
+        <!-- First project -->
+        <li>
+          <div class="image">
+            <img src="assets/project1.png" alt="Project 1" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">Project 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#">View on GitHub &rarr;</a>
+          </div>
+        </li>
+        <!-- Another project -->
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/project2.png" alt="Project 2" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">Project 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#">View on GitHub &rarr;</a>
+          </div>
+        </li>
+        <!-- Last project -->
+        <li>
+          <div class="image">
+            <img src="assets/project3.jpg" alt="Project 3" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">Project 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#">View on GitHub &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Let's Talk?</h2>
+        <p class="mb-m">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">example@email.com</span>
+          <span>+000 000000000</span>
+        </div>
+        <ul class="mb-l">
+          <!-- Social media -->
+          <li>
+            <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/github.svg" alt="GitHub" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2024 Your Name. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
